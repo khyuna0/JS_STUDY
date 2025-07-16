@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+
+</head>
+<body>
+    <script src="js/02join.js"></script>
+    <h2>회원 가입 양식</h2>
+
+    <hr>
+
+    <form name="joinForm" onsubmit="return checkJoin()"> <!-- onsubmit 에 지정된 js 함수를 실행시킴 -->
+    <table border="1" cellspacing="0" padding="0" width="600px" >
+
+    
+            <tr>
+                <td>아이디</td>
+                <td><input name="memberid" type="text"></td> <!-- js 의 id 이름은 name -->
+            </tr> 
+            <tr>
+                <td>비밀번호</td>
+                <td><input name="memberpw" type="password"></td>
+            </tr>
+            <tr>
+                <td>회원이름</td>
+                <td><input name="membername" type="text"></td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input name="memberemail" type="email"></td>
+            </tr>
+            <tr>
+                <td>자기소개</td>
+                <td><textarea name="memberintro" ></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" ><input type="submit" value="회원가입">
+                <input type="reset" value="취소"></td>
+                
+            </tr>
+
+        
+    </table>
+    </form>
+    
+
+
+</body>
+</html>
