@@ -17,7 +17,7 @@ function checkJoin() {
     }
 
     /*  정규 표현식 (아이디 영어 입력 정규표현식)
-    
+     
         var idcheck = /^[ㄱ-ㅎ|가-힣]+&/;
 
         if(!idcheck.test(document.joinForm.memberid.value)) {
